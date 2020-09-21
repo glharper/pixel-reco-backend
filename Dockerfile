@@ -4,8 +4,9 @@ WORKDIR /apps
 RUN npm install ws node-static
 ADD index.html /apps/
 ADD server.js /apps/
+ENV SOCKET_PORT=8043
 
-EXPOSE 8080
+EXPOSE ${SOCKET_PORT}
 
 ENTRYPOINT ["node", "server.js"]
 

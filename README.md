@@ -1,6 +1,6 @@
 # Node.js WebSocket example in Docker
 
-This is a small demo which demonstrates the use of WebSocket in Docker.
+This is a small demo intended to send a simple response to video messages via websocket.
 
 ## Steps
 
@@ -13,7 +13,6 @@ build.sh
 ~~~~
 
 ### Start the container
-
 
 ~~~~
 run.sh

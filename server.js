@@ -1,38 +1,19 @@
-// Source: https://github.com/einaros/ws
+var port = process.env.SOCKET_PORT;
+var ws = require('ws');
+var server = new ws.Server({ port: port });
  
-var WebSocketServer = require('ws').Server
-, wss = new WebSocketServer({ port: 8080 });
- 
-wss.on('connection', function connection(ws) 
+server.on('connection', function connection(conn) 
 {
-   ws.on('message', function incoming(message) 
+   conn.on('message', function incoming(message) 
    {
       console.log('received: %s', message);
    });
+
+   var response = {};
  
-   ws.send('something');
+   conn.send(response.toString());
 }); 
 
-
-// static webserver
-// Source: https://www.npmjs.com/package/node-static
-
-var static = require('node-static');
- 
-var fileServer = new static.Server('/root');
- 
-require('http').createServer(function (request, response) 
-{
-    request.addListener('end', function () 
-    {
-        fileServer.serve(request, response);
-    }).resume();
-}).listen(80);
-
-
-console.log('Listening on port 80.');
-
-
-
+console.log('Websocket server listening at ws://localhost:' + port);
 
 
