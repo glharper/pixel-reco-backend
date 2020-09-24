@@ -1,2 +1,2 @@
-docker rm wsserver
+docker rm pixelserver
 

@@ -1,1 +1,1 @@
-docker build -t websocket-demo .
+docker build -t pixel-reco-backend .

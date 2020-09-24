@@ -1,2 +1,2 @@
-docker logs wsserver
+docker logs pixelserver
 

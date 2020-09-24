@@ -1,7 +1,7 @@
 FROM node:alpine
 
 WORKDIR /apps
-RUN npm install ws node-static
+RUN npm install ws 
 ADD server.js /apps/
 ENV SOCKET_PORT=8043
 

@@ -1,2 +1,2 @@
-docker stop wsserver
+docker stop pixelserver
 
