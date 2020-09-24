@@ -17,3 +17,8 @@ build.sh
 ~~~~
 run.sh
 ~~~~
+
+
+### Update client endpoint
+
+Update client settings that will be hitting against this server to point to "ws://localhost:SOCKET_PORT" (Default SOCKET_PORT value is in Dockerfile, is currently 8043)
