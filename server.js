@@ -20,14 +20,15 @@ server.on('connection', function connection(conn)
                 headerString += String.fromCharCode(binaryMessage.readUInt8(i + 2));
             }
             console.log('received: binary header length %s, content: %s', headerLength.toString(), headerString);
+            let response = "Path: turn.end\r\n";
             if(binaryMessage.length > 2 + headerLength) {
                const pixelPosition = 0;
                const body = binaryMessage.slice(2 + headerLength); 
                const pixel = body.readUInt8(pixelPosition);
                let color = (pixel < 64) ? "white" : "black";
-               const response = "{ color: " + color + " }";
-               conn.send(response);
+               response = "Path: vision.color\r\n\r\n" + "color: " + color;
             }
+            conn.send(response);
          
          }
       }
