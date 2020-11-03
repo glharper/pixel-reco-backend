@@ -1,6 +1,36 @@
-var port = process.env.SOCKET_PORT;
+const port = process.env.SOCKET_PORT;
 var ws = require('ws');
+var fs = require('fs');
 var server = new ws.Server({ port: port });
+const scriptPath = process.env.SCRIPT_DIR; 
+var scriptDict = {};
+
+// Expected: <SCRIPT_DIR>/<LANGUAGE>/<TEST_SUITE>.log
+function loadScripts(path) {
+   fs.readdirSync(path).forEach(language => {
+      const dirPath = path + '/' + language;
+      if (fs.statSync(dirPath).isDirectory()) {
+         scriptDict[language] = {};
+         fs.readdirSync(dirPath).forEach(script => {
+            var testSuite = script.substring(0, script.indexOf('.'));
+            if (testSuite !== undefined & testSuite !== "") {
+               scriptDict[language][testSuite] = {};
+               var tests = fs.readFileSync(dirPath + '/' + script).toString().split("Test: ");
+               tests.forEach(test => {
+                  if (test !== undefined & test !== "") {
+                     var testLines = test.split("\r\n");
+                     var testName = testLines[0];
+                     scriptDict[language][testSuite][testName] = testLines.slice(1); 
+                  }
+               });
+            }
+         });
+      }
+   });
+}
+
+loadScripts(scriptPath);
+console.log(scriptDict);
  
 server.on('connection', function connection(conn) 
 {
