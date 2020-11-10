@@ -1,0 +1,187 @@
+
+Test: Null Param Check, both.
+
+Test: Null Param Check, Region
+
+Test: Null Param Check, Key
+
+Test: Valid Params
+
+Test: From Endpoint, but null
+
+Test: From Endpoint, endpoihnt numm null
+
+Test: From Endpoint, key null
+
+Test: From endpoint, valid Params
+
+Test: TypedParametersAccessibleViaPropBag
+
+Test: Unset param return default
+
+Test: Create Recognizer
+
+Test: Properties are passed to recognizer
+
+Test: Create SR from AudioConfig
+
+Test: Null Language Throws
+
+Test: Create recognizer with language and audioConfig
+
+Test: Create Intent Recognizer
+
+Test: testCreateIntentRecognizerLanguage1
+
+Test: Intent Recognizer Success
+
+Test: Intent Recognizer with Wave File.
+
+Test: Intent Recognizer null language Throws
+
+Test: Translation Recognizer No Target Languages Throws
+
+Test: Translation Recognizer No Source Language Throws
+
+Test: Translation Recog success
+
+Test: Translation Recognizer Null target languages throws
+
+Test: Test Translation Recognizer empty target list throws
+
+Test: Translation Null voice value throws
+
+Test: Translation Recognizer success.
+
+Test: Translation Recog Nul via prop set for targets
+
+Test: Translation Recog Null via propset voice and targets
+
+Test: Translation Recog Null via propset voice and targets with Language
+
+Test: Translation Recog with empty targets via prop
+
+Test: Translation Recog, Null voice via prop throws
+
+Test: Translation Recog success
+
+Test: testClose
+
+Test: NPM proxy test proxy set to bad port
+
+Test: Proxy has no effect on browser WebSocket
+Sent: undefined | undefined | privBody: {"context":{"system":{"name":"SpeechSDK","version":"1.14.0-alpha.0.1","build":"JavaScript","lang":"JavaScript"},"os":{"platform":"Browser/","name":"Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/16.2.2","version":"4.0"},"audio":{"source":{"bitspersample":16,"channelcount":1,"connectivity":"Unknown","manufacturer":"Speech SDK","model":"File","samplerate":16000,"type":"File"}}},"recognition":"interactive"} | privMessageType: 0 | privHeaders: {"Path":"speech.config","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.825Z","Content-Type":"application/json"} | privId: 21B0C09B63AA4167AA2EBFA8BA992511 | privSize: 425 | privPath: speech.config | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: application/json | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 0 | privHeaders: {"Path":"speech.context","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.832Z","Content-Type":"application/json"} | privId: 885CCF00A8554BA4854CA70F74EC16D3 | privSize: 2 | privPath: speech.context | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: application/json | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.840Z","Content-Type":"audio/x-wav"} | privId: 593E50DD44634F34AF624807A22BC5E5 | privSize: 44 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: audio/x-wav | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.845Z"} | privId: F821FA92DDD142AE81B293A1D054328F | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.848Z"} | privId: C1D5632DEC4046BCB0D27EB5F902A33E | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.875Z"} | privId: 3C4D932A4E3E447FBBFE2650A4FC4F47 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.880Z"} | privId: 6B391923A24B4A41BE791DF85237E36B | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.885Z"} | privId: BB6186C4017C452AA8D2532163F3AFB7 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.888Z"} | privId: B6C00C1D223147E18E52142317CCA874 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.892Z"} | privId: 1E92D819EB35457F93B4F037666780F6 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.896Z"} | privId: 1BB04873577B4B9BA60B3D60ADA97509 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.899Z"} | privId: 4F4E85BD5FC84ACBA19AA93F140B923D | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.904Z"} | privId: 3D631E649B8244EE936D4F336BE9C230 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.907Z"} | privId: 50E7CCFFECDC48DEAB1FCF261605D543 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.910Z"} | privId: 9F765C0EC11B425DA109E013903E7396 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.912Z"} | privId: 2D9F831E04C74084AF416D86B549C89A | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.917Z"} | privId: 4EE443250BC9452E8B17B47C3384D16F | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.920Z"} | privId: 1F4AE0BB02E34CAA9CD10262FC470B23 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.924Z"} | privId: C430B9EF8BFF46E78EEC75605D0F2A4F | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.929Z"} | privId: 0462269A5E844897BBE6FFAC92A1BE80 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.932Z"} | privId: 0AD846D5619F44EFB84BC9C8E52DC725 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.937Z"} | privId: 5B27800EED764F14AFF7B308366D26D7 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.940Z"} | privId: 5F5F045DF965436D9350FED44CDB45F0 | privSize: 3200 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.943Z"} | privId: 40BA1004822846E7B007525A030FD4C6 | privSize: 960 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: <NULL> | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:32.946Z"} | privId: 18AAD836651B46D0AB28F798386B55CF | privSize: 0 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Received: undefined | undefined | privBody: { "context": { "serviceTag": "0d8e982a0b4c4e6d8293112e2a225b56" } } | privMessageType: 0 | privHeaders: {"x-requestid":"723C45D6BE6F4774B68B80BD90F70678","path":"turn.start","content-type":"application/json; charset=utf-8"} | privId: 806D02A506314F77BC1F9A36A86B3D3B | privSize: 75
+Received: undefined | undefined | privBody: {"Offset":300000} | privMessageType: 0 | privHeaders: {"x-requestid":"723C45D6BE6F4774B68B80BD90F70678","path":"speech.startDetected","content-type":"application/json; charset=utf-8"} | privId: BED48951E4A248DC923D9154BD91E725 | privSize: 17
+Received: undefined | undefined | privBody: {"Id":"a4e86fa7d38d47a999ed086c55819d9d","Text":"what's the weather","Offset":500000,"Duration":7900000} | privMessageType: 0 | privHeaders: {"x-requestid":"723C45D6BE6F4774B68B80BD90F70678","path":"speech.hypothesis","content-type":"application/json; charset=utf-8"} | privId: D57166F117CA420AAE64E093CB1B53E1 | privSize: 104
+Received: undefined | undefined | privBody: {"Id":"954eeafc26ab4741a88c47ea2a34d878","Text":"what's the weather like","Offset":500000,"Duration":10200000} | privMessageType: 0 | privHeaders: {"x-requestid":"723C45D6BE6F4774B68B80BD90F70678","path":"speech.hypothesis","content-type":"application/json; charset=utf-8"} | privId: CB212E72F5804F8A998E9F8D8EC2C985 | privSize: 110
+Received: undefined | undefined | privBody: {"Offset":19000000} | privMessageType: 0 | privHeaders: {"x-requestid":"723C45D6BE6F4774B68B80BD90F70678","path":"speech.endDetected","content-type":"application/json; charset=utf-8"} | privId: EBB07201C0D34F4F83A4A5AF9CC39784 | privSize: 19
+Received: undefined | undefined | privBody: {"Id":"1ab33badab76401cb39c67a0410e8f0d","RecognitionStatus":"Success","DisplayText":"What's the weather like?","Offset":500000,"Duration":13200000} | privMessageType: 0 | privHeaders: {"x-requestid":"723C45D6BE6F4774B68B80BD90F70678","path":"speech.phrase","content-type":"application/json; charset=utf-8"} | privId: 7DA9CE94DD0F4334AFAA3B39EE71B1E6 | privSize: 148
+Sent: undefined | undefined | privBody: <NULL> | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:34.224Z"} | privId: DEF9D1E4D59A4355A0D8108DBAF02A90 | privSize: 0 | privPath: audio | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Received: undefined | undefined | privBody: {} | privMessageType: 0 | privHeaders: {"x-requestid":"723C45D6BE6F4774B68B80BD90F70678","path":"turn.end","content-type":"application/json; charset=utf-8"} | privId: 75B1034821D744D38714AAE8F7992AF5 | privSize: 2
+Sent: undefined | undefined | privBody: {"Metrics":[{"End":"2020-10-30T18:43:31.837Z","Name":"ListeningTrigger","Start":"2020-10-30T18:43:31.837Z"},{"End":"2020-10-30T18:43:34.234Z","Name":"Microphone","Start":"2020-10-30T18:43:32.338Z"},{"End":"2020-10-30T18:43:32.813Z","Id":"C796A5BCCB1C4195B303F2C377AE0D33","Name":"Connection","Start":"2020-10-30T18:43:31.878Z"},{"PhraseLatencyMs":[1870]},{"FirstHypothesisLatencyMs":[1818]}],"ReceivedMessages":{"turn.start":["2020-10-30T18:43:34.107Z"],"speech.startDetected":["2020-10-30T18:43:34.133Z"],"speech.hypothesis":["2020-10-30T18:43:34.145Z","2020-10-30T18:43:34.171Z"],"speech.endDetected":["2020-10-30T18:43:34.191Z"],"speech.phrase":["2020-10-30T18:43:34.208Z"],"turn.end":["2020-10-30T18:43:34.253Z"]}} | privMessageType: 0 | privHeaders: {"Path":"telemetry","X-RequestId":"723C45D6BE6F4774B68B80BD90F70678","X-Timestamp":"2020-10-30T18:43:34.261Z","Content-Type":"application/json"} | privId: CAAFDAFC9A0E40C2B5AED0CEDE34960A | privSize: 718 | privPath: telemetry | privRequestId: 723C45D6BE6F4774B68B80BD90F70678 | privContentType: application/json | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+
+Test: Region & Key getter test (Speech)
+
+Test: Region & Key getter test (Translation)
+
+Test: Connection URL Tests FromHost Tests Simple Host and protocol
+
+Test: Connection URL Tests FromHost Tests Simple Host, protocol, and port
+
+Test: Connection URL Tests FromHost Tests Simple Host and protocol
+
+Test: Connection URL Tests FromHost Tests Simple Host, protocol, and port
+
+Test: Connection URL Tests FromHost Tests Simple Host and protocol
+
+Test: Connection URL Tests FromHost Tests Simple Host, protocol, and port
+
+Test: Connection URL Tests FromHost Tests Simple Host and protocol
+
+Test: Connection URL Tests FromHost Tests Simple Host, protocol, and port
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (single)
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (change)
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (multiple)
+
+Test: Connection URL Tests Common URL Tests setProfanity
+
+Test: Connection URL Tests Common URL Tests enableAudioLogging
+
+Test: Connection URL Tests Common URL Tests requestWordLevelTimestamps
+
+Test: Connection URL Tests Common URL Tests initialSilenceTimeoutMs
+
+Test: Connection URL Tests Common URL Tests endSilenceTimeoutMs
+
+Test: Connection URL Tests Common URL Tests stableIntermediateThreshold
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (single)
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (change)
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (multiple)
+
+Test: Connection URL Tests Common URL Tests setProfanity
+
+Test: Connection URL Tests Common URL Tests enableAudioLogging
+
+Test: Connection URL Tests Common URL Tests requestWordLevelTimestamps
+
+Test: Connection URL Tests Common URL Tests initialSilenceTimeoutMs
+
+Test: Connection URL Tests Common URL Tests endSilenceTimeoutMs
+
+Test: Connection URL Tests Common URL Tests stableIntermediateThreshold
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (single)
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (change)
+
+Test: Connection URL Tests Common URL Tests setServiceProperty (multiple)
+
+Test: Connection URL Tests Common URL Tests setProfanity
+
+Test: Connection URL Tests Common URL Tests enableAudioLogging
+
+Test: Connection URL Tests Common URL Tests requestWordLevelTimestamps
+
+Test: Connection URL Tests Common URL Tests initialSilenceTimeoutMs
+
+Test: Connection URL Tests Common URL Tests endSilenceTimeoutMs
+
+Test: Connection URL Tests Common URL Tests stableIntermediateThreshold
+
+Test: Connection URL Tests enableDictation (Speech)
+Sent: undefined | undefined | privBody: {"context":{"system":{"name":"SpeechSDK","version":"1.14.0-alpha.0.1","build":"JavaScript","lang":"JavaScript"},"os":{"platform":"Browser/","name":"Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/16.2.2","version":"4.0"},"audio":{"source":{"bitspersample":16,"channelcount":1,"connectivity":"Unknown","manufacturer":"Speech SDK","model":"File","samplerate":16000,"type":"File"}}},"recognition":"conversation"} | privMessageType: 0 | privHeaders: {"Path":"speech.config","X-RequestId":"8CD9F375BF904F45A55B9C20E0EE29BE","X-Timestamp":"2020-10-30T18:44:48.694Z","Content-Type":"application/json"} | privId: CD59838D7E6143728126443400D06723 | privSize: 426 | privPath: speech.config | privRequestId: 8CD9F375BF904F45A55B9C20E0EE29BE | privContentType: application/json | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 0 | privHeaders: {"Path":"speech.context","X-RequestId":"8CD9F375BF904F45A55B9C20E0EE29BE","X-Timestamp":"2020-10-30T18:44:48.703Z","Content-Type":"application/json"} | privId: 52F5C09CF0C343058861C718DCBDC9D8 | privSize: 2 | privPath: speech.context | privRequestId: 8CD9F375BF904F45A55B9C20E0EE29BE | privContentType: application/json | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"8CD9F375BF904F45A55B9C20E0EE29BE","X-Timestamp":"2020-10-30T18:44:48.722Z","Content-Type":"audio/x-wav"} | privId: 8A95D2E759DB4FE99BA7EE9D5C2923C7 | privSize: 44 | privPath: audio | privRequestId: 8CD9F375BF904F45A55B9C20E0EE29BE | privContentType: audio/x-wav | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: <NULL> | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"8CD9F375BF904F45A55B9C20E0EE29BE","X-Timestamp":"2020-10-30T18:44:48.728Z"} | privId: 4A2B31C304A345B894FC7366AF51DBA9 | privSize: 0 | privPath: audio | privRequestId: 8CD9F375BF904F45A55B9C20E0EE29BE | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
+Sent: undefined | undefined | privBody: {} | privMessageType: 1 | privHeaders: {"Path":"audio","X-RequestId":"8CD9F375BF904F45A55B9C20E0EE29BE","X-Timestamp":"2020-10-30T18:44:48.733Z"} | privId: E4C72DA858E246D689ADB08A9EBC4ED2 | privSize: 3200 | privPath: audio | privRequestId: 8CD9F375BF904F45A55B9C20E0EE29BE | privContentType: <NULL> | privStreamId: <NULL> | privAdditionalHeaders: <NULL>
